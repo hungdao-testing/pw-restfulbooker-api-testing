@@ -15,7 +15,7 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: npm ci
-    - name: Run Playwright tests
+    - name: Run Playwright api tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
