@@ -1,0 +1,11 @@
+<booking>
+    <firstname>Jim</firstname>
+    <lastname>Brown</lastname>
+    <totalprice>111</totalprice>
+    <depositpaid>true</depositpaid>
+    <bookingdates>
+      <checkin>2018-01-01</checkin>
+      <checkout>2019-01-01</checkout>
+    </bookingdates>
+    <additionalneeds>Breakfast</additionalneeds>
+  </booking>
